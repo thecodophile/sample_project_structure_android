@@ -1,0 +1,54 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/drawable/bg_red_rounded.xml" value="0.1785" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/drawable/bg_round_corners_white.xml" value="0.1785" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/drawable/bg_round_custom_green_toast.xml" value="0.1785" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/drawable/bg_yellow_rounded_rect.xml" value="0.14" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/drawable/choose_theme_popup_bg_sharp.xml" value="0.1" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/drawable/ic_app_icon.xml" value="0.243" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/drawable/ic_background.xml" value="0.1785" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/drawable/ic_warning.xml" value="0.1285" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/activity_splash.xml" value="0.2" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/custom_success_toast.xml" value="0.259375" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/custom_toast_error_layout.xml" value="0.1" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/custom_toast_warning_layout.xml" value="0.1" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/dialog_alert.xml" value="0.136" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/dialog_item_select.xml" value="0.13072916666666667" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/fragment_no_internet.xml" value="0.1408514492753623" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/my_custom_dialog_layout.xml" value="0.13072916666666667" />
+        <entry key="..\:/MiKoSoftwareServices/MaxBridge/SafeZonez/app/src/main/res/layout/my_custom_dialog_layout_with_warning.xml" value="0.2" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/drawable/ic_email.xml" value="0.17" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.17" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/drawable/ic_pin.xml" value="0.17" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/drawable/leftnavigation_view_text_color.xml" value="0.17" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/drawable/navigation_view_colored.xml" value="0.166" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/drawable/round_corner_white_shape.xml" value="0.17" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/drawable/side_nav_bar.xml" value="0.166" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/layout/activity_home.xml" value="0.12613981762917933" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/layout/activity_login.xml" value="0.259375" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/layout/activity_splash.xml" value="0.264" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/layout/app_bar_nav.xml" value="0.1331521739130435" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/layout/content_nav.xml" value="0.1331521739130435" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/layout/fragment_gallery.xml" value="0.259375" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/layout/fragment_settings.xml" value="0.259375" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/layout/nav_header_nav.xml" value="0.15677083333333333" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/menu/activity_main_drawer.xml" value="0.259375" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/menu/bottom_nav_options.xml" value="0.2553846153846154" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/menu/nav.xml" value="0.259375" />
+        <entry key="..\:/MiKoSoftwareServices/SampleProjectStructure/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.17" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

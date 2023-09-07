@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr name="fontName" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="fontName" />
+    </declare-styleable>
+    <declare-styleable name="CustomButton">
+        <attr name="fontName" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomRadioButton">
+        <attr name="fontName" />
+    </declare-styleable>
+
+    <attr name="fontName" format="enum">
+        <enum name="roboto" value="1" />
+        <enum name="roboto_medium" value="2" />
+        <enum name="roboto_bold" value="3" />
+    </attr>
+
+    <declare-styleable name="ValidatedTextInputEditText">
+        <attr name="regex" format="string" />
+        <attr name="textError" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="SmoothCheckBox">
+        <attr name="duration" format="integer" />
+        <attr name="stroke_width" format="dimension" />
+        <attr name="color_tick" format="color" />
+        <attr name="color_checked" format="color" />
+        <attr name="color_unchecked" format="color" />
+        <attr name="color_unchecked_stroke" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableLayout">
+        <attr name="el_duration" format="integer" />
+        <attr name="el_expanded" format="boolean" />
+        <attr name="el_parallax" format="float" />
+        <!-- {@deprecated Use el_parallax instead.} -->
+        <attr name="el_translate_children" format="boolean" />
+        <attr name="layout_expandable" format="boolean" />
+        <attr name="android:orientation" />
+    </declare-styleable>
+
+    <declare-styleable name="RibbonView">
+        <attr name="ribbonWidth" format="float" />
+        <attr name="ribbonColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MaskedEditText">
+        <attr name="mask" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="IndicatorLayout">
+        <attr name="indicatorCount" format="integer" />
+    </declare-styleable>
+
+
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="insetForeground1" format="reference|color" />
+    </declare-styleable>
+
+
+</resources>

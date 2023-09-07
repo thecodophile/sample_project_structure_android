@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="login"
+            type="app.sample.ui.login.LoginViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="true"
+        tools:context=".ui.splash.SplashActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/iv_back"
+                app:layout_constraintTop_toTopOf="@+id/iv_back">
+
+                <app.sample.utils.custom.GlideImageView
+                    android:id="@+id/tv_title"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:layout_marginTop="100dp"
+                    android:src="@mipmap/ic_launcher_round"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <app.sample.utils.custom.CustomTextView
+                    android:id="@+id/rv_user_data_lay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/text_log_in"
+                    android:textColor="@color/black"
+                    android:textSize="21sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+                <app.sample.utils.custom.CustomTextView
+                    android:id="@+id/tvSubtitle"
+                    style="@style/NormalTextStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="@string/text_please_sign_in_to_continue"
+                    android:textColor="@color/black"
+                    app:fontName="roboto"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/rv_user_data_lay" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/et_user_name"
+                    style="@style/OutlineTextInputLayoutStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="25dp"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true"
+                    app:hintEnabled="false"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/tvSubtitle">
+
+                    <app.sample.utils.custom.CustomEditText
+                        android:id="@+id/et_user_name_value"
+                        style="@style/input_field_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_38sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/round_corner_white_shape"
+                        android:drawableStart="@drawable/ic_email"
+                        android:drawablePadding="12sp"
+                        android:hint="@string/title_email"
+                        android:imeOptions="actionNext"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_11ssp"
+                        android:text="@={login.email}"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:regex="@string/regex_email"
+                        app:textError="@string/error_email" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/et_password"
+                    style="@style/OutlineTextInputLayoutStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="25dp"
+                    app:errorEnabled="true"
+                    app:errorIconDrawable="@null"
+                    app:hintAnimationEnabled="false"
+                    app:hintEnabled="false"
+                    app:layout_constraintEnd_toEndOf="@+id/et_user_name"
+                    app:layout_constraintStart_toStartOf="@+id/et_user_name"
+                    app:layout_constraintTop_toBottomOf="@+id/et_user_name"
+                    app:passwordToggleEnabled="true">
+
+                    <app.sample.utils.custom.CustomEditText
+                        android:id="@+id/et_password_value"
+                        style="@style/input_field_style"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_38sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/round_corner_white_shape"
+                        android:drawableStart="@drawable/ic_paddlock"
+                        android:drawablePadding="12sp"
+                        android:hint="@string/title_password"
+                        android:imeOptions="actionGo"
+                        android:inputType="textPassword"
+                        android:maxLines="1"
+                        android:text="@={login.password}"
+                        android:textSize="@dimen/_11ssp"
+                        app:regex="@string/regex_password"
+                        app:textError="@string/error_password" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/bt_login"
+                    style="@style/MaterialButtonStyleRed"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_38sdp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="25dp"
+                    android:enabled="@{login.isEnabled}"
+                    android:text="@string/title_login"
+                    app:layout_constraintEnd_toEndOf="@+id/et_password"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="@+id/et_password"
+                    app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

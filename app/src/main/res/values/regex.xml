@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="regex_common" translatable="false">^.{1,}$</string>
+    <!--<string name="regex_url" translatable="false">^(https?|ftp|file)://[-a-zA-Z0-9+&amp;@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&amp;@#/%=~_|]</string>-->
+
+    <string name="regex_mobile_number" translatable="false">\\d{10,}</string>
+<!--    <string name="regex_mobile_number" translatable="false">[+]?[01]?[- .]?\\d{3}[- .]?\\d{3}[- .]?\\d{4}$</string>-->
+    <string name="regex_zip" translatable="false">\\d{6}</string>
+    <string name="regex_common_medium" translatable="false">^.{3,}$</string>
+    <string name="regex_common_long" translatable="false">^.{1,}$</string>
+    <string name="regex_first_name" translatable="false">^([a-zA-z]+\\s?)*\\s*$</string>
+    <string name="regex_last_name" translatable="false">^([a-zA-z]+\\s?)*\\s*$</string>
+    <string name="regex_text" translatable="false">^([a-zA-z0-9]+\\s?)*\\s*$</string>
+<!--    <string name="regex_address" translatable="false">^[\\d]+[A-Za-z0-9\\s,\\.]+</string>-->
+    <string name="regex_alphanumeric" translatable="false">^[a-zA-Z0-9_]*$</string>
+    <string name="regex_username" translatable="false">^([a-zA-Z])+([\\w]{2,})+$</string>
+    <string name="regex_number" translatable="false">^"^[0-9]*$"</string>
+    <string name="regex_multiline_text" translatable="false">^([a-zA-z0-9\.\-\_\,\'\"!*:()]*+\\s?)*\\s*$</string>
+    <!--<string name="regex_url" translatable="false">^(https?|ftp|file)://[-a-zA-Z0-9+&amp;@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&amp;@#/%=~_|]</string>-->
+    <string name="regex_url" translatable="false">^[-a-zA-Z0-9+&amp;@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&amp;@#/%=~_|]</string>
+    <string name="regex_email" translatable="false">[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,6}</string>
+<!--    <string name="regex_password" translatable="false">^.{8,}$</string>-->
+<!--    <string name="regex_password" translatable="false">^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d^a-zA-Z0-9_]*.{6,50}$</string>-->
+    <string name="regex_password" translatable="false">^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&amp;+=])(?=\\S+$).{6,50}$</string>
+    <string name="regex_otp" translatable="false">\\S{4}</string>
+    <string name="instal_agree">Installation Agreement</string>
+
+</resources>

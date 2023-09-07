@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/bg_white_rounded"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            >
+
+            <app.sample.utils.custom.GlideImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/no_internet_graphics" />
+
+            <app.sample.utils.custom.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:gravity="center"
+                android:text="@string/alert_no_internet"
+                android:textSize="18sp"
+                android:visibility="visible"
+                android:textColor="@color/colorBold"
+                app:fontName="roboto_medium" />
+
+            <app.sample.utils.custom.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:gravity="center"
+                android:text="@string/text_check_connection"
+                android:textSize="14sp"
+                android:visibility="visible"
+                android:textColor="@color/colorHint"
+                app:fontName="roboto" />
+
+            <app.sample.utils.custom.CustomTextView
+                android:id="@+id/tvTryAgain"
+                android:clickable="false"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/text_try_again"
+                android:textColor="@color/colorOrange"
+                android:textSize="14sp"
+                app:fontName="roboto_medium" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

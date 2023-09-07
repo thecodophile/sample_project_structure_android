@@ -1,0 +1,32 @@
+<resources>
+    <string name="roboto" translatable="false">roboto</string>
+    <string name="roboto_Medium" translatable="false">roboto_medium</string>
+    <string name="roboto_Bold" translatable="false">roboto_bold</string>
+
+    <string name="app_name">Sample App</string>
+
+    <string name="loading">Please wait...</string>
+    <string name="text_try_again">Try Again</string>
+    <string name="text_check_connection">Please check your internet settings</string>
+    <string name="alert_no_internet">No internet connection</string>
+    <string name="error_required">This field is required</string>
+    <string name="text_cap_yes">YES</string>
+    <string name="text_cap_no">NO</string>
+    <string name="app_title">Sample app description if any.</string>
+    <string name="text_log_in">Log in</string>
+    <string name="text_please_sign_in_to_continue" translatable="false">Explore the App by log in</string>
+    <string name="date">"Date : "</string>
+    <string name="time">"Time : "</string>
+    <string name="warning_text">Please wait...</string>
+    <string name="error_email">Invalid Email Address</string>
+    <string name="title_login">Login</string>
+    <string name="error_password">Invalid Password Format</string>
+    <string name="title_password">Password</string>
+    <string name="title_email">Email Address</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="text_account">Your Account</string>
+    <string name="nav_header_desc" />
+    <string name="welcome_message">"Hey! Welcome  "</string>
+</resources>

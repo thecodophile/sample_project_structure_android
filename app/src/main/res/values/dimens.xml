@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">20dp</dimen>
+    <dimen name="rounded_corner">13dp</dimen>
+
+    <dimen name="text_size_tiny">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_button_size">50dp</dimen>
+    <dimen name="edittext_padding_start">10dp</dimen>
+    <dimen name="edittext_padding_end">10dp</dimen>
+
+    <dimen name="tooltip_width">200dp</dimen>
+    <dimen name="tooltip_padding">18dp</dimen>
+    <dimen name="menu_tooltip_padding">4dp</dimen>
+    <dimen name="tip_radius">6dp</dimen>
+
+    <dimen name="tip_dimen_regular">16dp</dimen>
+    <dimen name="tip_dimen_small">12dp</dimen>
+
+    <dimen name="standard_55">55dp</dimen>
+    <dimen name="standard_105">105dp</dimen>
+    <dimen name="standard_155">155dp</dimen>
+    <dimen name="text_input_layout_height">75dp</dimen>
+    <dimen name="margin_top_10">10dp</dimen>
+    <dimen name="margin_top_14">14dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="icon_size">30dp</dimen>
+    <dimen name="padding_5">10dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+</resources>

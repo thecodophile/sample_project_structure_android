@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="purple_200">#3DAA6F</color>
+    <color name="purple_500">#3DAA6F</color>
+    <color name="purple_700">#FF000000</color>
+    <color name="teal_200">#3DAA6F</color>
+    <color name="teal_700">#3DAA6F</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="gray_text">#5C5C5C</color>
+    <color name="gray_text_new">#505050</color>
+    <color name="gray_line">#CFCFCF</color>
+
+
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#ffffff</color>
+
+    <color name="colorPrimary">#3DAA6F</color>
+    <color name="colorPrimaryDark">#3DAA6F</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="colorThemeGreen">#3DAA6F</color>
+    <color name="colorHint">#585858</color>
+    <color name="colorDarkHint">#3C3C3C</color>
+    <color name="colorNav">#9E9E9E</color>
+
+
+    <color name="colorBlueStart">#1568d3</color>
+    <color name="colorBlueButton">#1E6DBF</color>
+    <color name="colorBlueEnd">#3287f5</color>
+    <color name="colorBlueSelect">#e1f5fe</color>
+
+    <color name="colorLightBlue">#4dabf5</color>
+    <color name="body_color">#F3F1F2</color>
+    <color name="grey_background">#DBDBDB</color>
+    <color name="dark_grey_text">#4A4A4A</color>
+    <color name="next_step">#AEAEAE</color>
+    <color name="edittextborder">#AAAAAA</color>
+
+    <color name="colorDisabled">#40FFFFFF</color>
+    <color name="colorEnabled">#FFFFFF</color>
+
+
+    <color name="form_field_hint_color">#FACCCB</color>
+    <color name="form_field_hint_color2">#b4bdc0</color>
+    <color name="form_field_hint_color3">#94a3b3</color>
+    <color name="btn_color">#17b3b1</color>
+    <color name="circular_background_color">#f69997</color>
+    <color name="nav_drawer_sub_menu_color">#f9d1d1</color>
+    <color name="text_color">#000000</color>
+    <color name="first_next_text_color">#a1a1a1</color>
+    <color name="first_next_text_color1">#b2b2b2</color>
+    <color name="second_next_text_color">#a6a6a6</color>
+    <color name="second_next_text_color_1">#777474</color>
+    <color name="second_next_text_color_2">#2d2d2d</color>
+    <color name="title_text_color">#999999</color>
+    <color name="title_text_color_1">#7e7e7e</color>
+    <color name="title_text_color_2">#242424</color>
+    <color name="title_text_color_3">#424242</color>
+    <color name="title_text_color_4">#b3b1b1</color>
+    <color name="vertical_divider_view_color">#979797</color>
+    <color name="vertical_divider_view_color1">#F4F4F4</color>
+    <color name="vertical_divider_view_color2">#d8d8d8</color>
+    <color name="horizontal_divider_view_color">#e6e6e6</color>
+    <color name="add_location_location_display_color">#666c75</color>
+    <color name="add_location_location_type_color">#232426</color>
+    <color name="popup_cancel_color">#cacaca</color>
+    <color name="radio_button_normal_color">#cccccc</color>
+    <color name="search_make_name_hint_color">#919191</color>
+    <color name="inactive_step_color">#F48886</color>
+    <color name="package_row_color">#1ad5d2</color>
+    <color name="gold_package_color">#fbc358</color>
+    <color name="silver_package_color">#939292</color>
+    <color name="bronze_package_color">#ae6230</color>
+    <color name="view_background">#15228dc4</color>
+    <color name="date_outline_grey">#f2f2f2</color>
+    <color name="pending_quote_color">#f05552</color>
+    <color name="confirmed_color">#7ed321</color>
+    <color name="common_status_color">#ffa400</color>
+    <color name="inactive_red_color">#F7D0CF</color>
+
+
+    <color name="colorTextDark">#222222</color>
+    <color name="colorRed">#e32525</color>
+    <color name="colorButtonRed">#FF0000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBackground">#EFEEF6</color>
+    <color name="colorLebel">#909090</color>
+    <color name="colorGreyLightNew">#727272</color>
+    <color name="colorText">#222</color>
+    <color name="colorLine">#cccccc</color>
+    <color name="tab_selected">#e32f40</color>
+    <color name="color_red">#E70F0B</color>
+    <color name="colorHeader">#333333</color>
+    <color name="colorEditTextLine">#e8e8e8</color>
+    <color name="colorTextBlue">#017aff</color>
+    <color name="colorBlue">#2275C5</color>
+    <color name="colorSkyBlue">#750667D1</color>
+    <color name="colorDrawable">#c6c6c6</color>
+    <color name="colorDeepGreen">#6616d44b</color>
+    <color name="colorLightGreen">#D8FFD6</color>
+    <color name="colorDeepYellow">#99ffca04</color>
+    <color name="colorDeepGrey">#59a4a4a4</color>
+    <color name="colorLightYellow">#fffce6</color>
+    <color name="colorDeepOrange">#ff8f00</color>
+    <color name="colorBold">#343434</color>
+    <color name="colorSideHint">#aaaaaa</color>
+    <color name="colorBackgroundOpportunity">#F6F6FB</color>
+    <color name="colorInnerOpportunity">#FCFCFF</color>
+    <color name="colorRedText">#ff2e12</color>
+    <color name="colorGreenText">#16d44b</color>
+    <color name="colorYellowText">#f3af12</color>
+    <color name="colorGreyText">#a4a4a4</color>
+    <color name="colorRedLight">#15ff2e12</color>
+    <color name="colorGreyLight">#24dadada</color>
+    <color name="colorRedBorder">#50ff2e12</color>
+    <color name="colorLightGrey">#c2c2c2</color>
+
+    <color name="colorChartBarLight">#a6ff8787</color>
+    <color name="colorChartBarDark">#e10728</color>
+    <!--    <color name="colorPrimary">#F15858</color>-->
+    <!--    <color name="colorPrimaryDark">#F15858</color>-->
+    <!--    <color name="colorAccent">#F15858</color>-->
+    <color name="transparent">@android:color/transparent</color>
+    <color name="backgroundGrey">#f6f6fb</color>
+
+
+    <color name="colorBlack">#000</color>
+    <color name="colorBackgroundLightGray">#f6f6fb</color>
+    <color name="colorWhiteTranlucent">#4Dffffff</color>
+    <color name="colorWhiteTranlucent1">#AAffffff</color>
+    <color name="colorBlackTranlucent">#B4000000</color>
+
+    <color name="colorLightText">#FFCFD0</color>
+    <color name="colorYellow">#f7de1e</color>
+    <color name="colorYellowDarker">#ECBD0D</color>
+    <color name="colorBlackText">#222</color>
+    <color name="colorGrayText">#585858</color>
+    <color name="colorLightGrayText">#888</color>
+    <color name="colorView">#c7bfbf</color>
+    <color name="colorView1">#EBEBEB</color>
+    <color name="colorLighterGray">#EEE</color>
+    <color name="colorGray">#444444</color>
+    <color name="colorOrange">#e10728</color>
+    <color name="colorGrey">#c6c6c6</color>
+    <color name="colorLightOrange">#FFF5F5</color>
+    <color name="colorGreen">#3DDC84</color>
+    <color name="colorNavDrawerSelected">#EAFBF8</color>
+    <color name="colorListHeading">#ededed</color>
+    <color name="colorTransparentRed">#88cd212a</color>
+    <color name="switchTrack">#ffd600</color>
+    <color name="switchTrackDisable">#90caf9</color>
+    <color name="switchTrackActive">#1565c0</color>
+    <color name="switchTrackNormal">#90caf9</color>
+    <color name="switchThumbBgActive">#979797</color>
+    <color name="switchThumbActive">#ad1457</color>
+    <color name="switchThumbkNormal">#64b5f6</color>
+    <color name="lightOrange">#fff8f2</color>
+    <color name="lightPink">#ffddc1</color>
+    <color name="brownish_grey">#666666</color>
+    <color name="yellow">#FFDE00</color>
+
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+    <color name="grey">#808080</color>
+    <color name="grey_ligth">#BDBABA</color>
+    <color name="light_grey">#EBEBEB</color>
+    <color name="google_button_color">#E94335</color>
+    <color name="facebook_button_color">#345FCA</color>
+    <color name="profile_grey">#E7E3E3</color>
+
+
+    <color name="window_background">#F5F5F5</color>
+    <color name="splash_background">#FFFFFF</color>
+    <color name="light_grey_text">#BCBCBD</color>
+    <color name="medium_grey">#888888</color>
+    <color name="bg_like_share_comment">#EFEFEF</color>
+    <color name="nobel_grey">#9f9f9f</color>
+    <color name="colorDarkGray">#585858</color>
+    <color name="colorGrayTextNew">#969696</color>
+    <color name="background">#CACACA</color>
+    <color name="transparent_green">#D5FFD3</color>
+    <color name="colorYellowDark">#FFEAC4</color>
+    <color name="colorLightGray">#A4A4A4</color>
+    <color name="colorSlate">#042342</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+    <color name="zxing_viewfinder_laser">@color/colorPrimary</color>
+    <color name="zxing_possible_result_points">@color/colorPrimaryDark</color>
+
+    <color name="zxing_result_view">#b0000000</color>
+    <color name="zxing_status_text">#ffffffff</color>
+    <color name="zxing_transparent">#00000000</color>
+    <color name="zxing_viewfinder_mask">#60000000</color>
+    <color name="red">#FF1100</color>
+    <color name="colorBorder">#dddce5</color>
+    <color name="colorWhiteLight">#D3D3D3</color>
+
+
+</resources>
